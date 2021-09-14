@@ -1,0 +1,46 @@
+{
+    "language": "en-US",
+    "messages": [
+        {
+            "id": "TEST",
+            "message": "TEST",
+            "translation": "TEST",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "{Intv}",
+            "message": "{Intv}",
+            "translation": "{Intv}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Intv",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "int(v)"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "{V}",
+            "message": "{V}",
+            "translation": "{V}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "V",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "v"
+                }
+            ],
+            "fuzzy": true
+        }
+    ]
+}
